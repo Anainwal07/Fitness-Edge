@@ -1,0 +1,114 @@
+body{
+    background-color:#111827;
+    font-family: sans-serif;
+}
+header{
+    background-color:black;
+    padding:30px;
+    border-radius:10px;
+}
+
+header nav{
+    float:right;
+    padding-right:30px;
+    width:fit-content;
+}
+
+header nav ul{
+    list-style-type:none;
+    
+}
+header nav li:hover{
+   text-decoration-line: underline;
+   cursor: pointer;
+   transform:scale(1.1,1.1);
+}
+
+header nav li{
+    margin-right:25px;
+    float: left;
+    color: white;
+    font-size:1.5em;
+    font-family:sans-serif;
+    
+}
+ img:hover{
+    transform:scale(1.1,1.1);
+}
+
+
+  button{
+    background-color:#1A237E;
+    color:white;
+    font-size:1.2em;
+    padding:7px;
+    border-radius:20px;
+    margin-left:15px;
+    font:bolder;
+    border:none;
+}
+button:hover{
+    transform:scale(1.1,1.1);
+    cursor: pointer;
+   
+}
+.quote{
+    float:left;
+    margin-left:30px;
+    background-image:url(https://media.istockphoto.com/photos/dumbbell-picture-id1190819113?k=20&m=1190819113&s=612x612&w=0&h=LFeCVWJ4xDCyID4ZYitswSuYxoHc-6ZuMEt9TesqXQc=);
+    padding:30px;
+    border-radius: 20px;
+    background-attachment: fixed;
+}
+.row{
+    width:50%;
+}
+.column{
+ 
+}
+label{
+    color: white;
+    margin-top: 10px;
+    margin-bottom:10px;
+}
+input{
+    width:80%;
+    padding: 10px;
+    margin-bottom:30px;
+}
+.login{
+    background-color:#4B5563; 
+    margin-top:50px;
+    margin-bottom:50px;
+    margin-left:100px;
+    margin-right:50px;
+    width:40%;
+    padding-left:40px ;
+    border-radius:10px;
+
+}
+footer h2{
+
+}
+footer nav li a {
+    font-size:medium;
+    color: white;
+    font-family:sans-serif;
+    text-decoration:none;
+}
+footer{
+    margin-top:50px;
+    background-image: url(https://cdn.pixabay.com/photo/2017/01/09/11/30/dumbbell-1966247__480.jpg);
+    margin-bottom:60px;
+    background-size:100% 100%;
+
+}
+footer nav li{ 
+   padding:10px;
+   list-style-type: none;
+}
+footer h2{
+    color: darkgray;
+}
+image:hover{
+}
